@@ -1,0 +1,132 @@
+# ==========================================
+# Build & Compiled Files
+# ==========================================
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# ==========================================
+# Build Directories
+# ==========================================
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
+
+# ==========================================
+# CMake
+# ==========================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# ==========================================
+# Doxygen
+# ==========================================
+/docs/
+/latex/
+/html/
+*.aux
+*.log
+*.toc
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.out
+
+# ==========================================
+# IDE & Editor files
+# ==========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+DerivedData/
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.user
+*.ncb
+*.opendb
+*.VC.db
+*.ipch
+
+# ==========================================
+# Mac / Linux / Windows junk
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*~
+*.swp
+*.tmp
+*.log
+
+# ==========================================
+# Backup / cache
+# ==========================================
+*.bak
+*.cache
+*.tar
+*.gz
+*.zip
+*.7z
+
+# ==========================================
+# Custom project stuff
+# ==========================================
+# Ignore test binaries or temporary scripts
+/test_output/
+*.run
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
